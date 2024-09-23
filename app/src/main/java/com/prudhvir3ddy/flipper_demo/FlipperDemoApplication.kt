@@ -5,5 +5,6 @@ import android.app.Application
 class FlipperDemoApplication : Application() {
     override fun onCreate() {
         super.onCreate()
+        FlipperUtil.setupFlipper(this)
     }
 }
